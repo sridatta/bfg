@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Sridatta Thatipamala"
+  },
+  "text": {
+    "more": "Test Description",
+    "intro": "Community detection using <a href=\"https://research.google/pubs/pub46238/\">Ego Splitting</a> and <a href=\"https://arxiv.org/abs/1509.00556\">PCMA</a>",
+    "title": "Twitter Tribes"
+  },
+  "legend": {
+    "edgeLabel": "following",
+    "colorLabel": "cluster",
+    "nodeLabel": "screenname"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "cluster",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 5,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
